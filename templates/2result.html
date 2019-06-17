@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+Duration: ({{time}}) seconds
+<body>
+  <table>
+        <tr> Quakes  that were within  {{ km }} km Range from {{ location }}   ==></tr><br>
+
+        <tr>
+                <!--<th>Local Time</th>-->
+                <th>Time</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>DEPTH</th>
+                <th>MAG</th>
+                <th>MAGTYPE</th>
+                <th>NST</th>
+                <th>GAP</th>
+                <th>DMIN</th>
+                <th>RMS</th>
+                <th>NET</th>
+                <th>ID</th>
+                <th>UPADTED</th>
+                <th>PLACE</th>
+                <th>TYPE</th>
+                <th>HORIZONTAL</th>
+                <th>DEPTHERROR</th>
+                <th>MAGERROR</th>
+                <th>MAGNST</th>
+                <th>STATUS</th>
+            </tr>
+            {% for result in results %}
+
+                <tr>
+                    <td>{{ result['TIME'] }}</td>
+                    <td>{{ result['LATITUDE'] }}</td>
+                    <td>{{ result['LONGITUDE'] }}</td>
+                    <td>{{ result['DEPTH'] }}</td>
+                    <td>{{ result['MAG'] }}</td>
+                    <td>{{ result['MAGTYPE'] }}</td>
+                    <td>{{ result['NST'] }}</td>
+                    <td>{{ result['GAP'] }}</td>
+                    <td>{{ result['DMIN'] }}</td>
+                    <td>{{ result['RMS'] }}</td>
+                    <td>{{ result['NET'] }}</td>
+                    <td>{{ result['ID'] }}</td>
+                    <td>{{ result['UPDATED'] }}</td>
+                    <td>{{ result['PLACE'] }}</td>
+                    <td>{{ result['TYPE'] }}</td>
+                    <td>{{ result['HORIZONTAL'] }}</td>
+                    <td>{{ result['DEPTHERROR'] }}</td>
+                    <td>{{ result['MAGERROR'] }}</td>
+                    <td>{{ result['MAGNST'] }}</td>
+                    <td>{{ result['STATUS'] }}</td>
+                </tr>
+
+            {% endfor %}
+
+        </table>
+
+    </div>
+
+</body>
+</html>

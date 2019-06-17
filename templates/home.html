@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Earthquakes</title>
+</head>
+<body>
+        <form name="form1" action="/searchMag" class="inpt" method="post">
+          <fieldset>
+            <legend>Search Earthquakes with magnitude greater than input mag</legend>
+            Enter a magnitude: <input type="number" step="0.1" name="mag" id="mag">
+              Queries:<input type="text" name="count" maxlength="200" width="60">
+            <input type="submit" name="submit">
+          </fieldset>
+        </form>
+
+        <form action="/quakeRangeRedis" method="post">
+		(Redis)Range From: <input type="text" name="mag" maxlength="200" width="60">
+		(Redis)Range To:<input type="text" name="mag1" maxlength="200" width="60">
+            Queries:<input type="text" name="count" maxlength="200" width="60">
+		<input type="submit" value="Search">
+	</form>
+
+<form name="form7" action="/clusters" method="post">
+        <fieldset>
+        <legend>Check for clusters</legend>
+        Distance (km):<input type="number" name="km" >
+        Location : <input type="text" name="location">
+        <input type="submit" value="Show">
+        </fieldset>
+        </form>
+
+
+
+
+
+</body>
+</html>

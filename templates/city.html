@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Duration: ({{time}}) seconds
+<div>
+	<table id="table">
+		{% if ci|length > 0 %}
+            <p>{{ci|length}} records</p>
+            <tr>
+                <th>Time</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>Mag</th>
+                <th>net</th>
+                <th>id</th>
+                <th>place</th>
+
+            </tr>
+
+            {% for records in ci %}
+
+                <tr>
+                    <td>{{records['time']}}</td>
+                    <td>{{records['latitude']}}</td>
+                    <td>{{records['longitude']}}</td>
+                    <td>{{records['mag']}}</td>
+                    <td>{{records['net']}}</td>
+                    <td>{{records['id']}}</td>
+                    <td>{{records['place']}}</td>
+                </tr>
+
+            {% endfor %}
+        {% else %}
+            <p>No records found</p>
+        {% endif %}
+	</table>
+</div>
+
+
+</body>
+
+</html>
