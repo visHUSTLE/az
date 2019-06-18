@@ -1,6 +1,6 @@
 # from flask import Flask
 from flask import Flask, request, render_template
-import pypyodbc as pyodbc
+import pyodbc
 import time
 import redis
 import pickle

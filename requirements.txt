@@ -1,4 +1,4 @@
 Flask
-pypyodbc
+pyodbc
 redis
 pickle
