@@ -1,6 +1,6 @@
 # from flask import Flask
 from flask import Flask, request, render_template
-import pyodbc
+import pypyodbc as pyodbc
 import time
 import redis
 import pickle
@@ -11,7 +11,7 @@ server = 'mysqlserver644.database.windows.net'
 database = 'mySampleDatabase'
 username = 'azureuser'
 password = 'Cloud@20'
-driver = '{ODBC Driver 13 for SQL Server}'
+driver = '{ODBC Driver 17 for SQL Server}'
 
 cacheName = 'vishnu'
 rd = redis.StrictRedis(host='vishnu.redis.cache.windows.net', port=6380, db=0,
