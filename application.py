@@ -13,7 +13,7 @@ server = 'mysqlserver644.database.windows.net'
 database = 'mySampleDatabase'
 username = 'azureuser'
 password = 'Cloud@20'
-driver = '{ODBC Driver 13 for SQL Server}'
+driver = '{ODBC Driver 17 for SQL Server}'
 
 cacheName1 = 'testQueryRes1'
 cacheName2 = 'testQueryRes2'
