@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>1001722893 Vadhera,Bhanu Vadhera </h1>
+<br>
+<p>
+Time taken for execution : {{ time }}
+
+  <table>
+
+        <tr>
+                <!--<th>Local Time</th>-->
+                <th>State</th>
+            </tr>
+            {% for result in data %}
+                <tr>
+                    <td>{{ result }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+    </div>
+
+
+</body>
+</html>
+
+</p>
+{% endblock %}

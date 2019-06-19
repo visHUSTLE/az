@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <br>
+    <form name="form11" action="/query1WithCache" method="post">
+        Now Using Cache :<br>
+        Enter a count <input type="number" name="count" id="count">
+        <input type="submit" name="show">
+    </form>
+    <br>
+    <br>
+
+    <form name="form2" action="/query1" method="post">
+        Enter de1 <input type="number" name="derror1" id="count">
+        Enter a de2 <input type="number" name="derror2" id="km">
+        Enter long <input type="number" name="long" id="location">
+        <input type="submit" name="show">
+    </form>
+    <br>
+    <form name="form22" action="/query2WithCache" method="post">
+        Now Using Cache :<br>
+        Enter a count <input type="number" name="count" id="count">
+        Enter a distance <input type="number" name="km" id="km">
+        Enter location string <input type="text" name="location" id="location">
+        <input type="submit" name="show">
+    </form>
+    <br>
+    <form name="form3" action="/searchbwdatesAndMag" class="inpt" method="post">
+          <fieldset>
+          <legend>Search earthquakes between particular dates with input magnitude range</legend>
+              Enter a count <input type="number" name="count" id="count">
+          Enter start date: <input type="date" name="startdate">
+          Enter end date: <input type="date" name="enddate">
+          Enter a mag1: <input type="number" step="0.1" name="mag1" id="mag">
+          Enter a mag2: <input type="number" step="0.1" name="mag2" id="mag">
+          <input type="submit" name="submit">
+        </fieldset>
+        </form>
+        <br>
+    <form name="form33" action="/searchbwdatesAndMagCache" class="inpt" method="post">
+          <fieldset>
+          <legend>Search earthquakes between particular dates with input magnitude range</legend>
+              Now Using Cache :<br>
+              Enter a count <input type="number" name="count" id="count">
+          Enter start date: <input type="date" name="startdate">
+          Enter end date: <input type="date" name="enddate">
+          Enter a mag1: <input type="number" step="0.1" name="mag1" id="mag">
+          Enter a mag2: <input type="number" step="0.1" name="mag2" id="mag">
+          <input type="submit" name="submit">
+        </fieldset>
+        </form>
+        <br>
+
+     <form name="form4" action="/getearthquakedatabetweenMag" method="post">
+        Enter a magnitude <input type="number" name="magnitude1" id="mag">
+         Enter a magnitude <input type="number" name="magnitude2" id="mag">
+        Enter a count <input type="number" name="count" id="count">
+        <input type="submit" name="show">
+    </form>
+    <br>
+     <form name="form44" action="/getearthquakedatabetweenMagcache" method="post">
+          Now Using Cache :<br>
+        Enter a magnitude <input type="number" name="magnitude1" id="mag">
+         Enter a magnitude <input type="number" name="magnitude2" id="mag">
+        Enter a count <input type="number" name="count" id="count">
+        <input type="submit" name="show">
+    </form>
+    <br>
+         <form name="form5" action="/getStateCode" method="post">
+        Enter the 2 letter State <input type="text" name="statecode" id="statecode">
+        <input type="submit" name="show">
+    </form>
+    <br>
+     <form name="form6" action="/populationRange" method="post">
+        Enter a pop1 <input type="number" name="pop1" id="pop">
+         Enter a pop2 <input type="number" name="pop2" id="pop">
+         Enter a year <input type="number" name="year" id="year">
+        <input type="submit" name="show">
+    </form>
+    <br>
+     <form name="form66" action="/populationRangeCache" method="post">
+         Now Using Cache :<br>
+         Enter a pop1 <input type="number" name="pop1" id="pop">
+         Enter a pop2 <input type="number" name="pop2" id="pop">
+         Enter a year <input type="number" name="year" id="year">
+         Enter a count <input type="number" name="count" id="count">
+        <input type="submit" name="show">
+    </form>
+
+</body>
+</html>

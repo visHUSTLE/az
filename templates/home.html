@@ -30,7 +30,26 @@
         </fieldset>
         </form>
 
-
+<form name="poprange" action="/populationRange" class="inpt" method="post">
+          <fieldset>
+            <legend>Search Earthquakes with magnitude greater than input mag</legend>
+            Enter pop1: <input type="number" step="0.1" name="pop1" id="mag">
+              Enter pop2: <input type="number" step="0.1" name="pop2" id="mag">
+              Enter year: <input type="number" step="0.1" name="year" id="mag">
+              Queries:<input type="text" name="count" maxlength="200" width="60">
+            <input type="submit" name="submit">
+          </fieldset>
+        </form>
+<form name="poprange" action="/populationRangeRedis" class="inpt" method="post">
+          <fieldset>
+            <legend>Search Earthquakes with magnitude greater than input mag</legend>
+            Enter pop1: <input type="number" step="0.1" name="pop1" id="mag">
+              Enter pop2: <input type="number" step="0.1" name="pop2" id="mag">
+              Enter year: <input type="number" step="0.1" name="year" id="mag">
+              Queries:<input type="text" name="count" maxlength="200" width="60">
+            <input type="submit" name="submit">
+          </fieldset>
+        </form>
 
 
 

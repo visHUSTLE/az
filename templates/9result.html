@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1001670678, Vishnu Raju Nandyala</title>
+</head>
+<body>
+Time taken for execution : {{ time }}
+
+  <table>
+
+
+        <tr>
+                <!--<th>Local Time</th>-->
+                <th>State</th>
+                <th>2010</th>
+                <th>2011</th>
+                <th>2012</th>
+                <th>2013</th>
+                <th>2014</th>
+                <th>2015</th>
+                <th>2016</th>
+                <th>2017</th>
+                <th>2018</th>
+
+            </tr>
+            {% for result in data %}
+
+                <tr>
+                    <td>{{ result['STATE'] }}</td>
+                    <td>{{ result['2010'] }}</td>
+                    <td>{{ result['2011'] }}</td>
+                    <td>{{ result['2012'] }}</td>
+                    <td>{{ result['2013'] }}</td>
+                    <td>{{ result['2014'] }}</td>
+                    <td>{{ result['2015'] }}</td>
+                    <td>{{ result['2016'] }}</td>
+                    <td>{{ result['2017'] }}</td>
+                    <td>{{ result['2018'] }}</td>
+
+                </tr>
+
+            {% endfor %}
+
+        </table>
+
+    </div>
+
+
+</body>
+</html>
