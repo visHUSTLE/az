@@ -5,7 +5,7 @@ import time
 import redis
 import pickle
 import random
-import matplotlib.pyplot as plt
+
 
 app = Flask(__name__)
 

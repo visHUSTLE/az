@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9030f52-8fef-4e1f-ae4e-c4b50ad92c59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/1result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/1result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cacheresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cacheresult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index1.html" afterDir="false" />
-    </list>
+    <list default="true" id="f9030f52-8fef-4e1f-ae4e-c4b50ad92c59" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +11,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_docs_hello_world$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1560818106687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/python_docs_hello_world$python_docs_hello_world.coverage" NAME="python-docs-hello-world Coverage Results" MODIFIED="1560974767436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/python_docs_hello_world$Flask__application_py_.coverage" NAME="Flask (application.py) Coverage Results" MODIFIED="1560978167208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/python_docs_hello_world$Flask__application_py_.coverage" NAME="Flask (application.py) Coverage Results" MODIFIED="1560978606300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -261,12 +255,12 @@
       <workItem from="1560799815901" duration="695000" />
       <workItem from="1560818070353" duration="13323000" />
       <workItem from="1560883198202" duration="31920000" />
-      <workItem from="1560973068163" duration="4096000" />
+      <workItem from="1560973068163" duration="4407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82921000" />
+    <option name="totallyTimeSpent" value="83232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
