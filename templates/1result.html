@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <style>
+
+    <title>1001670678, VishnuRaju Nandyala</title>
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -20,6 +22,7 @@ tr:nth-child(even) {
 </style>
 
 </head>
+Time taken for execution : {{ time }}
 <body>
   <table>
         <tr> ========================= </tr> <br>
@@ -31,10 +34,11 @@ tr:nth-child(even) {
 
             </tr>
 
-            {% for results in result %}
+            {% for k,v in result.items() %}
 
                 <tr>
-                    <td>{{ result }}</td>
+                    <td>{{ k }}</td>
+                    <td>{{ v }}</td>
 
                 </tr>
 
